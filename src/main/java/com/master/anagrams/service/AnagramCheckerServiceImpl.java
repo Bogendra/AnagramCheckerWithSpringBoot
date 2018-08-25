@@ -25,10 +25,10 @@ public class AnagramCheckerServiceImpl implements AnagramCheckerService {
 			return "words are of not same size";
 		}
 		if (alphabetize(word1).equals(alphabetize(word2))) {
-			System.out.println("yes");
+			//System.out.println("yes");
 			return "YES";
 		} else {
-			System.out.println("No");
+			//System.out.println("No");
 			return "NO";
 		}
 
